@@ -1,0 +1,27 @@
+name: quadb_assignment
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  animated_splash_screen: ^1.3.0
+  flutter:
+    sdk: flutter
+  html: ^0.15.4
+  http: ^1.1.0
+  page_transition: ^2.1.0
+  sizer: ^2.0.15
+  tuple: ^2.0.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
